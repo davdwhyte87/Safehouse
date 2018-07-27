@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Safehouse</string>
+
+
+    <string name="logo_text">Safe House</string>
+    <string name="h_email">Email</string>
+    <string name="h_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="h_first_name">First Name</string>
+    <string name="h_last_name">Last Name</string>
+    <string name="h_phone">Phone number</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="invest">Invest</string>
+    <string name="total_payout">Total Payment</string>
+    <string name="request_payout">Request Payout</string>
+</resources>
