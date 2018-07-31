@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/dash"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user2"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_invest"
+            android:icon="@drawable/coins"
+            android:title="Invest" />
+
+        <item
+            android:id="@+id/nav_invest_history"
+            android:icon="@drawable/history"
+            android:title="Investment history" />
+        <item
+            android:id="@+id/nav_request_payment"
+            android:icon="@drawable/req_money"
+            android:title="Request payment" />
+        <item
+            android:id="@+id/nav_payout_history"
+            android:icon="@drawable/history"
+            android:title="Payout history" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/exit"
+            android:title="Logout" />
+    </group>
+</menu>

@@ -4,17 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".ForgotPass">
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
-        <!--<ImageView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="162dp"-->
-        <!--android:src="@drawable/logo_green" />-->
         <TextView
             style="@style/logo_text"
             android:layout_width="wrap_content"
@@ -61,38 +56,16 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="10dp">
 
-            <EditText
-                android:id="@+id/f_pass"
-                style="@style/textf"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/h_password"
-                android:inputType="textPassword" />
-            <TextView
-                android:id="@+id/err_pass"
-                style="@style/f_error"
-                android:visibility="invisible"
-                android:text="@string/err_pass_r"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
 
 
         <Button
-            style="@style/btn_login"
+            style="@style/btn_reset_pass"
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/btn_login" />
+            android:text="@string/reset_pass" />
 
 
         <TextView
@@ -101,7 +74,7 @@
             android:layout_gravity="center"
             android:padding="10sp"
             android:text="@string/sign_up"
-            android:textColor="#FFFAF8F9"
+            android:textColor="@color/colorPrimary"
             android:textSize="17sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -5,6 +5,8 @@
     <string name="logo_text">Safe House</string>
     <string name="h_email">Email</string>
     <string name="h_password">Password</string>
+    <string name="h_amount">Amount</string>
+
     <string name="btn_login">Login</string>
     <string name="forgot_pass">Forgot Password?</string>
     <string name="sign_up">Sign Up</string>
@@ -16,4 +18,29 @@
     <string name="invest">Invest</string>
     <string name="total_payout">Total Payment</string>
     <string name="request_payout">Request Payout</string>
+    <string name="err_mail_r">Email is required</string>
+    <string name="err_pass_r">Password is required</string>
+    <string name="err_fname_r">First name is required</string>
+    <string name="err_lname_r">Last name is required</string>
+    <string name="err_phone_r">Phone number is required</string>
+    <string name="err_amount_r">Amount is required</string>
+    <string name="err_paym">Select a payment method</string>
+    <string name="err_mail_l">Mail too short</string>
+    <string name="err_pass_l">Password must be at least 5</string>
+
+    <string name="reset_pass">Reset Password</string>
+
+    <!--The side nav-->
+
+    
+    <string-array name="investment_plans">
+        <item>Select Investment type</item>
+        <item>Short term</item>
+        <item>Long term</item>
+    </string-array>
+    <string-array name="payment_methods">
+        <item>Select payment method</item>
+        <item>Bank Transfer</item>
+        <item>Online payment</item>
+    </string-array>
 </resources>
