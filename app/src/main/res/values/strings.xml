@@ -32,7 +32,7 @@
 
     <!--The side nav-->
 
-    
+
     <string-array name="investment_plans">
         <item>Select Investment type</item>
         <item>Short term</item>
@@ -43,4 +43,7 @@
         <item>Bank Transfer</item>
         <item>Online payment</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
