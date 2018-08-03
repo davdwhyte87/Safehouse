@@ -64,6 +64,12 @@ class MainActivity : AppCompatActivity() {
         if(item_id==R.id.nav_invest){
             fragment=InvestFragment()
         }
+        if(item_id==R.id.nav_invest_history){
+            fragment=InvestmentHistoryFragment()
+        }
+        if(item_id==R.id.nav_payout_history){
+            fragment=PayoutHistoryFragment()
+        }
         if(item_id==0){
             fragment=DashFragment()
         }

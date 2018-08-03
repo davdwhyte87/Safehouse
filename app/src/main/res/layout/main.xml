@@ -20,6 +20,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
                 app:titleTextColor="@color/colorWhite"
+                app:title="SafeHouse"
                 android:theme="@style/ThemeOverlay.AppCompat.Light" />
         </FrameLayout>
 

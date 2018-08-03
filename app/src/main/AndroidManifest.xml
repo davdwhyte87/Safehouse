@@ -19,7 +19,6 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".ForgotPass" />
         <activity android:name=".ProfileFragment" />
-        <activity android:name=".InvestActivity"></activity>
     </application>
 
 </manifest>

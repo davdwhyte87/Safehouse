@@ -97,4 +97,28 @@
         <item name="android:textSize">1sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+    <style name="inv_h_amt">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    <style name="payout_h_amt">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    <style name="inv_h_date">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    <style name="payout_h_date">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:padding">20dp</item>
+    </style>
 </resources>

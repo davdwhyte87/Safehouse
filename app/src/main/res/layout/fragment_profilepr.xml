@@ -1,195 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:id="@+id/scrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
     tools:context=".AccountdetailsFragment">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
 
-        <ScrollView
-            android:id="@+id/scrollView2"
-            android:layout_marginTop="100dp"
-            android:layout_marginBottom="50dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="250dp"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:orientation="vertical">
+                android:padding="10dp"
+                android:src="@drawable/user" />
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:src="@drawable/camera" />
+        </LinearLayout>
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="10dp"
-                        android:src="@drawable/user" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@color/colorPrimary"
-                        android:padding="5dp"
-                        android:src="@drawable/camera" />
-                </LinearLayout>
+            <EditText
+                android:id="@+id/f_first_name"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_first_name"
+                android:inputType="text" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+            <!--<TextView-->
+            <!--android:id="@+id/err_bank_name"-->
+            <!--style="@style/f_error"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/err_bank_name_r"-->
+            <!--android:visibility="invisible" />-->
+        </LinearLayout>
 
-                    <EditText
-                        android:id="@+id/f_first_name"
-                        style="@style/textf"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/h_first_name"
-                        android:inputType="text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-                    <!--<TextView-->
-                    <!--android:id="@+id/err_bank_name"-->
-                    <!--style="@style/f_error"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="@string/err_bank_name_r"-->
-                    <!--android:visibility="invisible" />-->
-                </LinearLayout>
+            <EditText
+                android:id="@+id/f_last_name"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_last_name"
+                android:inputType="text" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+            <!--<TextView-->
+            <!--android:id="@+id/err_acc_name"-->
+            <!--style="@style/f_error"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/err_acc_name_r"-->
+            <!--android:visibility="invisible" />-->
+        </LinearLayout>
 
-                    <EditText
-                        android:id="@+id/f_last_name"
-                        style="@style/textf"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/h_last_name"
-                        android:inputType="text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-                    <!--<TextView-->
-                    <!--android:id="@+id/err_acc_name"-->
-                    <!--style="@style/f_error"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="@string/err_acc_name_r"-->
-                    <!--android:visibility="invisible" />-->
-                </LinearLayout>
+            <EditText
+                android:id="@+id/f_email"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_email"
+                android:inputType="textEmailAddress" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+            <!--<TextView-->
+            <!--android:id="@+id/err_acc_number"-->
+            <!--style="@style/f_error"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/err_acc_number_r"-->
+            <!--android:visibility="invisible" />-->
+        </LinearLayout>
 
-                    <EditText
-                        android:id="@+id/f_email"
-                        style="@style/textf"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/h_email"
-                        android:inputType="textEmailAddress" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-                    <!--<TextView-->
-                    <!--android:id="@+id/err_acc_number"-->
-                    <!--style="@style/f_error"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="@string/err_acc_number_r"-->
-                    <!--android:visibility="invisible" />-->
-                </LinearLayout>
+            <EditText
+                android:id="@+id/f_phone"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_phone"
+                android:inputType="phone" />
+        </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+        <TextView
+            style="@style/textf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary" />
 
-                    <EditText
-                        android:id="@+id/f_phone"
-                        style="@style/textf"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/h_phone"
-                        android:inputType="phone" />
-                </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-                <TextView
-                    style="@style/textf"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorPrimary" />
+            <EditText
+                android:id="@+id/f_bdate"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_birthdate"
+                android:inputType="date" />
+        </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-                    <EditText
-                        android:id="@+id/f_bdate"
-                        style="@style/textf"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/h_birthdate"
-                        android:inputType="date" />
-                </LinearLayout>
+            <Spinner
+                android:id="@+id/f_state"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <Spinner
-                        android:id="@+id/f_state"
-                        style="@style/textf"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/btn_update_details"
-                    style="@style/btn_login"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Update" />
-            </LinearLayout>
-
-        </ScrollView>
+        <Button
+            android:id="@+id/btn_update_details"
+            style="@style/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
     </LinearLayout>
-
-
-
-</android.support.constraint.ConstraintLayout>
+</ScrollView>
