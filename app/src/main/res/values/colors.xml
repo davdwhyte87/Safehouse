@@ -3,6 +3,8 @@
     <!--<color name="colorPrimary">#0E9614</color>-->
     <color name="colorPrimary">#303954</color>
     <color name="colorPrimaryDark">#494f5e</color>
-    <color name="colorAccent">#f2f0f0</color>
+    <color name="colorAccent">#313131</color>
     <color name="colorError">#FFE20202</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhite2">#FFC5C7CE</color>
 </resources>

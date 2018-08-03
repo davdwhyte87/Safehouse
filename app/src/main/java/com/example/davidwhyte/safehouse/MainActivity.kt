@@ -61,11 +61,16 @@ class MainActivity : AppCompatActivity() {
         if(item_id==R.id.nav_dash){
             fragment=DashFragment()
         }
+        if(item_id==R.id.nav_invest){
+            fragment=InvestFragment()
+        }
         if(item_id==0){
             fragment=DashFragment()
         }
         if(item_id==R.id.nav_profile){
-            fragment=ProfileFragment()
+//            fragment=ProfileprFragment()
+            val intent=Intent(this,ProfileFragment::class.java)
+            startActivity(intent)
         }
 
         if(fragment!=null){
@@ -80,11 +85,10 @@ class MainActivity : AppCompatActivity() {
 
 
     fun checkLogin(){
-        var a=0
+        var a=1
         if(a==0){
             val intent=Intent(this,LoginActivity::class.java)
-            val invest_intent=Intent(this,InvestActivity::class.java)
-            startActivity(invest_intent)
+            startActivity(intent)
         }
     }
 }

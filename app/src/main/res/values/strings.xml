@@ -14,6 +14,7 @@
     <string name="h_first_name">First Name</string>
     <string name="h_last_name">Last Name</string>
     <string name="h_phone">Phone number</string>
+    <string name="h_birthdate">Birth Date</string>
     <string name="btn_sign_up">Sign Up</string>
     <string name="invest">Invest</string>
     <string name="total_payout">Total Payment</string>
@@ -24,6 +25,12 @@
     <string name="err_lname_r">Last name is required</string>
     <string name="err_phone_r">Phone number is required</string>
     <string name="err_amount_r">Amount is required</string>
+    <string name="err_bank_name_r">Bank name is required</string>
+    <string name="err_acc_name_r">Account name is required</string>
+    <string name="err_acc_number_r">Account Number is required</string>
+    <string name="err_current_pass">Current password is required</string>
+    <string name="err_new_pass">New password is required</string>
+    <string name="err_conf_pass">Password confirmation is required</string>
     <string name="err_paym">Select a payment method</string>
     <string name="err_mail_l">Mail too short</string>
     <string name="err_pass_l">Password must be at least 5</string>
@@ -31,7 +38,14 @@
     <string name="reset_pass">Reset Password</string>
 
     <!--The side nav-->
-
+    <string name="update_details">Update Details</string>
+    <string name="h_acc_name">Account Name</string>
+    <string name="h_acc_number">Account Number</string>
+    <string name="h_bank_name">Bank Name</string>
+    <string name="h_current_pass">Current password</string>
+    <string name="h_new_pass">New password</string>
+    <string name="h_conf_pass">Confirm password</string>
+    <string name="btn_change_passs">Change Password</string>
 
     <string-array name="investment_plans">
         <item>Select Investment type</item>
@@ -42,6 +56,12 @@
         <item>Select payment method</item>
         <item>Bank Transfer</item>
         <item>Online payment</item>
+    </string-array>
+    <string-array name="states">
+        <item>Select state</item>
+        <item>Edo</item>
+        <item>Ibadan</item>
+        <item>Menu</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -70,11 +70,11 @@
                 android:src="@drawable/wallet" />
         </LinearLayout>
 
-        <Button
-            style="@style/dash_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/invest" />
+        <!--<Button-->
+            <!--style="@style/dash_btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/invest" />-->
     </LinearLayout>
 
     <LinearLayout
@@ -141,10 +141,10 @@
                 android:src="@drawable/money" />
         </LinearLayout>
 
-        <Button
-            style="@style/dash_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/request_payout" />
+        <!--<Button-->
+            <!--style="@style/dash_btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/request_payout" />-->
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccountdetailsFragment">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/f_current_pass"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_current_pass"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/err_current_pass"
+                style="@style/f_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/err_current_pass"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/f_new_pass"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_new_pass"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/err_new_pass"
+                style="@style/f_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/err_new_pass"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/f_confirm_pass"
+                style="@style/textf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_conf_pass"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/err_confirm_pass"
+                style="@style/f_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/err_conf_pass"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_change_pass"
+            style="@style/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/btn_change_passs" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
